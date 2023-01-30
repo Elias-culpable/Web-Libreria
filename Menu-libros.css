@@ -1,0 +1,40 @@
+body
+{
+	text-align:center;
+	background-color:black;
+}
+
+h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color:white;
+  
+}
+
+a
+{
+	border:2px solid white;
+	padding: 20px;
+	width:200px;
+	text-decoration: none;
+	background-color:white;
+	margin:1em;
+	float:center;
+	position:relative;
+	top:60px;
+	font-family:Arial,Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,sans-serif;
+	font-size: 20px;
+	color:black;
+	font-weight:bold;
+	transition:all 5s;
+	
+}
+#menu
+{
+	position:relative;
+	top:160px;
+
+}
+#edu:hover ~ #nove{
+background-color:red;
+}
