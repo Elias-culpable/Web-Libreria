@@ -1,0 +1,125 @@
+body
+{
+	background-image:url(../Imagenes/Educativos/globos.jpg);
+	background-size:cover;
+	font-family:Helvetica;
+}
+
+h1
+{
+	font-size: 60px;
+	letter-spacing: 0.25em;
+	border:5px solid lightBlue;
+	background-color:rgba(255,255,255,0.5);
+	margin:auto;
+}
+
+img
+{
+	width:340px;
+	height:500px;
+}
+
+table{margin:15px auto;}
+
+td{width:900px;}
+
+th.title::before
+{
+	content: "Título:";
+	text-decoration: underline;
+	font-weight: bold;
+	margin: 5px;
+}
+
+th.title
+{
+	background-color:white;
+	font-size: 30px;
+	text-align:left;
+	height:60px;
+}
+
+.title p{margin: 5px;}
+
+td.autor::before{
+	content: "Autor:";
+	text-decoration: underline;
+	font-weight:bold;
+	margin: 5px;
+}
+
+td.autor
+{
+	background-color:white;
+	font-size: 20px;
+	text-align:left;
+	height:50px;
+}
+
+.autor p{margin: 5px;}
+
+.genero::before{
+	content: "Género:";
+	text-decoration: underline;
+	font-weight:bold;
+	margin: 5px;
+}
+
+td.genero
+{
+	background-color:white;
+	font-size: 20px;
+	text-align:left;
+	height:50px;
+}
+
+.genero p{margin: 5px;}
+
+.desc::before
+{
+	content: "Descripción:";
+	text-decoration: underline;
+	font-weight:bold;
+}
+
+td.desc
+{
+	background-color:rgba(0,0,0,0.5);
+	font-size: 20px;
+	text-align:left;
+	padding:10px;
+	color:white;
+	vertical-align:top;
+}
+
+.Precio::before{
+	content: "Precio:";
+	text-decoration: underline;
+	font-weight: bold;
+	margin: 5px;
+
+}
+
+td.Precio
+{
+	background-color:black;
+	color:white;
+	height:40px;
+	
+}
+
+
+.Compra
+{
+	border: 1px outset #CCC;
+	background-color: #EEE;
+	padding: 10px;
+}
+
+.Compra:hover{background-color: #CCB;}
+
+a{
+	text-decoration: none;
+	color: black;
+}

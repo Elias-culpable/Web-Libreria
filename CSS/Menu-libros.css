@@ -1,0 +1,56 @@
+body
+{
+	text-align:center;
+	padding-top: 5%;
+	background: url(../Imagenes/Pagos/fondo.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+h1
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 65px;
+  color:black;
+  text-shadow:5px 5px 10px white,-5px 5px 10px white,5px -5px 10px white,-5px -5px 10px white;
+}
+
+table
+{
+	margin:auto;
+	border-spacing: 30px;
+}
+
+td
+{
+	width:400px;
+	height:100px;
+	border:2px solid white;
+	text-align:center;
+	border-radius:9px;
+	background-color:white;
+	box-shadow:0px 0px 50px 3px black;
+}
+
+a
+{
+	text-decoration: none;
+	font-family:Arial,Trebuchet MS;
+	font-size: 25px;
+	color:black;
+	font-weight:bold;
+}
+
+td:hover a{color: white;}
+
+td:hover
+{
+	background-size:cover;
+	box-shadow:0px 0px 50px 3px white;
+}
+
+td#novelas:hover{background-image:url("../Imagenes/Menu/Barco.png");}
+td#educativos:hover{background-image:url("../Imagenes/Menu/color.jpg");}
+td#fantasia:hover{background-image:url("../Imagenes/Menu/dragon.jpg");}
+td#cienciaFiccion:hover{background-image:url("../Imagenes/Menu/espacio.jpg");}
+td#romanticos:hover{background-image:url("../Imagenes/Menu/love.jpg");}
+td#thrillers:hover{background-image:url("../Imagenes/Menu/hacha.jpg");}
