@@ -8,24 +8,36 @@
         <h1>Por favor, Rellene el formulario con sus datos:</h1>
         <form>
             <fieldset>
-                <label for="Municipio">Municipio</label>
-                <select id="Municipio">
-                    <option id="selected" value="selected" selected="selected">-->Selecciona</option> 
-                    <option id="TNF" value="TNF">Santa Cruz de Tenerife</option>
-                    <option id="GC" value="GC">Las Palmas de Gran Canaria</option>
-                </select>
-                <label for="Localidad">Localidad</label><input type="text" id="Localidad" size="25"/><br/>
-                <label for="CP">Codigo Postal</label><input type="text" id="CP" size="6"/>
-                <label for="Calle">Calle</label><input type="text" id="calle"/>
-                <label for="Numero">Nº</label><input type="text" id="Numero" size="3"/><br/>
-                <label for="Piso">Puslse el botón en caso de vivir en un bloque de pisos</label> <input type="checkbox" id="Piso"/>
-                <span>
-                    <label for="Puerta">Puerta</label>  <input type="text" id="Puerta"/>
-                </span><br/>
-                <label for="IBAN">Nº Tarjeta</label><input type="text" id="IBAN">
-                <label for="Caducidad">Feha Expiración</label><input type="text" id="Caducidad"size="5"/>
-                <label for="cOdigo">Los numeritos de atras</label><input type="text" id="Codigo"size="3"/><br/>
+				<p>
+					<label for="Municipio">Municipio: </label>
+					<select id="Municipio">
+						<option id="selected" value="selected" selected="selected">-->Selecciona</option> 
+						<option id="TNF" value="TNF">Santa Cruz de Tenerife</option>
+						<option id="GC" value="GC">Las Palmas de Gran Canaria</option>
+					</select>
+                <label for="Localidad">Localidad: </label><input type="text" id="Localidad" size="25"/>
+				</p>
+				<p>
+					<label for="CP">Codigo Postal: </label><input type="text" id="CP" size="6"/>
+					<label for="Calle">Calle: </label><input type="text" id="calle"/>
+					<label for="Numero">Nº: </label><input type="text" id="Numero" size="3"/>
+				</p>
+				<p>
+					<label for="Piso">Puslse el botón en caso de vivir en un bloque de pisos: </label> <input type="checkbox" id="Piso"/>
+					<span>
+						<label for="Puerta">Puerta: </label><input type="text" id="Puerta" size="4"/>
+					</span>
+				</p>
+				<p><label for="Nombre">Titular de la tarjeta: </label><input type="text" id="Nombre" size="50"/></p>
+                <p>
+					<label for="IBAN">Nº Tarjeta: </label><input type="text" id="IBAN">
+					<label for="Caducidad">Feha Caducidad: </label><input type="text" id="Caducidad"size="5"/>
+					<label for="Codigo">CVV: </label><input type="text" id="Codigo"size="3"/>
+				</p>
+				<img src="../Imagenes/Pagos/guía-compra.png"/>
+				<p>
                 <input type="submit" id="Enviar" value="Enviar"/>
+				</p>
             </fieldset>
         </form>
     </body>
